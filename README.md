@@ -1,32 +1,71 @@
-<div align="center">
+<!-- Profile README inspired by PRISM -->
 
-# Hi, I'm Qinglong Ge 👋
+<table>
+<tr>
+<td width="30%" valign="top" align="center">
 
-### Generative AI · Diffusion Models · Knowledge Graphs
+<img src="https://avatars.githubusercontent.com/u/110760254?v=4"
+     width="180"
+     alt="Qinglong Ge">
 
-M.S. student at **Dalian University of Technology**
+<h2>Qinglong Ge</h2>
 
-<br>
+<p>
+  <strong>M.S. Student</strong><br>
+  Dalian University of Technology
+</p>
 
-<a href="mailto:qlge816@mail.dlut.edu.cn">
-  <img src="https://img.shields.io/badge/Email-qlge816%40mail.dlut.edu.cn-245B8A?style=flat-square&logo=gmail&logoColor=white">
-</a>
-<a href="https://github.com/toututuya">
-  <img src="https://img.shields.io/badge/GitHub-toututuya-181717?style=flat-square&logo=github&logoColor=white">
-</a>
-<a href="https://gdpkg.samlab.cn/">
-  <img src="https://img.shields.io/badge/Live_Demo-GDP--KG-16856B?style=flat-square&logo=neo4j&logoColor=white">
-</a>
+<p>
+  Generative AI<br>
+  Diffusion Models<br>
+  Knowledge Graphs
+</p>
 
-</div>
+<p>
+  <a href="mailto:qlge816@mail.dlut.edu.cn">Email</a>
+  ·
+  <a href="https://github.com/toututuya">GitHub</a>
+  ·
+  <a href="https://gdpkg.samlab.cn/">Demo</a>
+</p>
 
-<br>
+</td>
 
-## About Me
+<td width="70%" valign="top">
 
-I work on **generative modeling** and **end-to-end AI systems**. My current research explores dual-space generative data assimilation, while my engineering experience includes data pipelines, knowledge graphs, Neo4j retrieval, and deployed web systems.
+<h1>Hi, I'm Qinglong 👋</h1>
 
-I am currently exploring **knowledge-grounded LLM agents**, with a focus on reliable tool use, retrieval, evidence tracing, and evaluation.
+<p>
+I am an M.S. student at <strong>Dalian University of Technology</strong>.
+My work lies at the intersection of generative modeling and practical AI
+system development.
+</p>
+
+<p>
+My current research focuses on <strong>dual-space generative data
+assimilation</strong>. Previously, I helped build and deploy
+<strong>GDP-KG</strong>, an end-to-end pesticide knowledge graph platform
+covering data processing, Neo4j-based retrieval, question answering, and
+web development.
+</p>
+
+<p>
+I am currently exploring <strong>knowledge-grounded LLM agents</strong>,
+with an emphasis on tool use, retrieval, evidence tracing, and evaluation.
+</p>
+
+<h3>Research Interests</h3>
+
+<p>
+  <code>Generative AI</code>
+  <code>Diffusion Models</code>
+  <code>Knowledge Graphs</code>
+  <code>LLM Agents</code>
+</p>
+
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -36,38 +75,60 @@ I am currently exploring **knowledge-grounded LLM agents**, with a focus on reli
 <tr>
 <td width="50%" valign="top">
 
-### DualDA
+<h3>🌦️ DualDA</h3>
 
-**Dual-Space Generative Data Assimilation**
+<strong>Dual-Space Generative Data Assimilation</strong>
 
-A generative framework coupling latent-space analysis with state-space conditional diffusion for sparse atmospheric observations.
+<p>
+A generative framework coupling latent-space analysis with
+state-space conditional diffusion for sparse atmospheric observations.
+</p>
 
-`Research` `PyTorch` `VAE` `Diffusion`
+<ul>
+  <li>First author</li>
+  <li>AAAI 2027 under review</li>
+  <li>Overall nRMSE: <strong>0.1178</strong></li>
+  <li>Approximately <strong>4.5%</strong> lower than FNP</li>
+</ul>
 
-- First author
-- AAAI 2027 under review
-- Overall nRMSE: **0.1178**
-- Approximately **4.5%** lower than FNP
+<p>
+  <code>Python</code>
+  <code>PyTorch</code>
+  <code>VAE</code>
+  <code>Diffusion</code>
+</p>
 
 </td>
+
 <td width="50%" valign="top">
 
-### GDP-KG
+<h3>🌱 GDP-KG</h3>
 
-**Global Pesticide Knowledge Graph**
+<strong>Global Pesticide Knowledge Graph</strong>
 
-An end-to-end platform for pesticide data processing, knowledge graph construction, retrieval, and web deployment.
+<p>
+An end-to-end platform for pesticide data processing,
+knowledge graph construction, retrieval, and web deployment.
+</p>
 
-`System` `Neo4j` `Knowledge Graph`
+<ul>
+  <li>Multi-source pesticide data processing</li>
+  <li>Knowledge graph construction</li>
+  <li>Neo4j retrieval and question answering</li>
+  <li>Deployed web system</li>
+</ul>
 
-- Multi-source data processing
-- Knowledge graph construction
-- Retrieval and question answering
-- Deployed as a working web system
+<p>
+  <code>Neo4j</code>
+  <code>Knowledge Graph</code>
+  <code>Web System</code>
+</p>
 
-<a href="https://gdpkg.samlab.cn/">
-  <img src="https://img.shields.io/badge/Open_Live_Demo-16856B?style=for-the-badge&logo=neo4j&logoColor=white">
-</a>
+<p>
+  <a href="https://gdpkg.samlab.cn/">
+    <strong>→ Visit Live System</strong>
+  </a>
+</p>
 
 </td>
 </tr>
@@ -75,75 +136,106 @@ An end-to-end platform for pesticide data processing, knowledge graph constructi
 
 <br>
 
-## Research Outputs
+## Research
 
-<table>
-<tr>
-<td>🌦️</td>
-<td>
-<strong>DualDA: Dual-Space Generative Data Assimilation</strong><br>
-<sub>First author · AAAI 2027 under review</sub>
-</td>
-</tr>
+### DualDA: Dual-Space Generative Data Assimilation
 
-<tr>
-<td>🌱</td>
-<td>
-<strong>PDDD-PreTrain: A Series of Commonly Used Pre-Trained Models Support Image-Based Plant Disease Diagnosis</strong><br>
-<sub><i>Plant Phenomics</i>, 2023 · Fourth author</sub>
-</td>
-</tr>
+**First Author · AAAI 2027 Under Review**
 
-<tr>
-<td>💡</td>
-<td>
-<strong>A Neuron Connection Method Based on Discrete-Sequence Floating-Point Transformation</strong><br>
-<sub>Granted patent CN115471668B · Second inventor</sub>
-</td>
-</tr>
-</table>
+A dual-space generative framework for assimilating sparse observations
+into 69-variable global atmospheric fields. The framework combines
+latent-space analysis with state-space conditional diffusion.
 
-<br>
+---
 
-## Technologies
+### PDDD-PreTrain
 
-<div align="center">
+**Plant Phenomics, 2023 · Fourth Author**
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white">
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
-<img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white">
+*A Series of Commonly Used Pre-Trained Models Support Image-Based Plant
+Disease Diagnosis.*
 
-<br>
+Responsible for DeepLabv3-based plant disease segmentation experiments
+and pre-trained model evaluation.
 
-<img src="https://img.shields.io/badge/Diffusion_Models-6C63FF?style=flat-square">
-<img src="https://img.shields.io/badge/VAE-8957E5?style=flat-square">
-<img src="https://img.shields.io/badge/Knowledge_Graphs-16856B?style=flat-square">
+---
 
-</div>
+### Granted Patent
+
+**CN115471668B · Second Inventor**
+
+*A Neuron Connection Method Based on Discrete-Sequence Floating-Point
+Transformation.*
 
 <br>
 
 ## Currently Building
 
-> **GDP-KG Agent** — a knowledge-graph-grounded LLM agent that plans queries, invokes Neo4j tools, preserves evidence, and evaluates grounded answers.
+<table>
+<tr>
+<td width="8%" align="center">🤖</td>
+<td>
 
-Current stage: architecture design and implementation.
+<strong>GDP-KG Agent</strong>
+
+A knowledge-graph-grounded LLM agent built on the existing GDP-KG
+platform. The planned system will connect task planning, tool calling,
+Neo4j retrieval, evidence preservation, and evaluation.
+
+<sub>Status: in development — repository and results will be published
+after the first working version is complete.</sub>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## Technical Skills
+
+<table>
+<tr>
+<td><strong>Programming</strong></td>
+<td>Python · C++</td>
+</tr>
+<tr>
+<td><strong>Deep Learning</strong></td>
+<td>PyTorch · Diffusion Models · VAE</td>
+</tr>
+<tr>
+<td><strong>Engineering</strong></td>
+<td>Linux · Git · Neo4j</td>
+</tr>
+<tr>
+<td><strong>Current Focus</strong></td>
+<td>LLM Agents · Tool Calling · Retrieval · Evaluation</td>
+</tr>
+</table>
+
+<br>
+
+## News
+
+- **2026.08** — Started developing GDP-KG Agent.
+- **2026** — Submitted DualDA to AAAI 2027 as first author.
+- **2025.09** — Joined Dalian University of Technology as an M.S. student.
+- **2025.09** — Invention patent CN115471668B granted.
+- **2024.08** — Completed and deployed the first working version of GDP-KG.
 
 <br>
 
 <div align="center">
 
-### Let's Connect
+### Contact
 
 <a href="mailto:qlge816@mail.dlut.edu.cn">
-  <img src="https://img.shields.io/badge/Email_Me-245B8A?style=for-the-badge&logo=gmail&logoColor=white">
+  qlge816@mail.dlut.edu.cn
 </a>
 
 <br><br>
 
-<sub>Researching generative models. Building reliable AI systems.</sub>
+<sub>
+Researching generative models · Building reliable AI systems
+</sub>
 
 </div>
