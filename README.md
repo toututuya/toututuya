@@ -5,7 +5,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A5F,100:0F766E&height=190&section=header&text=Qinglong%20Ge&fontSize=42&fontColor=FFFFFF&fontAlignY=35&desc=Generative%20AI%20%C2%B7%20Diffusion%20Models%20%C2%B7%20Knowledge%20Graphs&descSize=16&descAlignY=57" alt="Qinglong Ge header">
 
 <a href="https://github.com/toututuya">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3200&pause=900&color=2F81F7&center=true&vCenter=true&width=620&lines=M.S.+Student+at+Dalian+University+of+Technology;Researching+dual-space+generative+models;Building+end-to-end+AI+systems;Exploring+knowledge-grounded+LLM+agents" alt="Typing introduction">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3200&pause=900&color=2F81F7&center=true&vCenter=true&width=620&lines=M.S.+Student+at+Dalian+University+of+Technology;Researching+generative+models+for+data+assimilation;Currently+studying+ENSF+and+HOI+diffusion+models;Building+reliable+AI+systems" alt="Typing introduction">
 </a>
 
 <br>
@@ -23,30 +23,13 @@
 
 ## 👋 About Me
 
-```python
-qinglong = {
-    "education": "M.S. Student @ Dalian University of Technology",
-    "research": [
-        "Generative AI",
-        "Diffusion Models",
-        "Data Assimilation",
-        "Knowledge Graphs",
-    ],
-    "engineering": [
-        "Python",
-        "PyTorch",
-        "Neo4j",
-        "AI System Development",
-    ],
-    "currently_building": "GDP-KG Agent",
-}
-```
+I am an M.S. student at **Dalian University of Technology**, working on generative modeling and data assimilation.
 
-I work at the intersection of **generative modeling** and **practical AI systems**.
+My current interests span two directions: **Ensemble Score Filters (EnSF)** for high-dimensional data assimilation, and diffusion models for **Human-Object Interaction (HOI)** generation and understanding.
 
-My current research focuses on dual-space generative data assimilation. Previously, I helped build and deploy **GDP-KG**, an end-to-end pesticide knowledge graph platform covering data processing, Neo4j retrieval, question answering, and web development.
+Previously, I helped build and deploy **GDP-KG**, an end-to-end pesticide knowledge graph platform covering multi-source data processing, Neo4j retrieval, question answering, and web development.
 
-I am currently exploring knowledge-grounded LLM agents, with an emphasis on **tool use, retrieval, evidence tracing, and evaluation**.
+**Research interests:** Generative AI · Diffusion Models · Data Assimilation · EnSF · Human-Object Interaction · Knowledge Graphs
 
 <br>
 
@@ -114,17 +97,14 @@ An end-to-end platform for pesticide data processing, knowledge graph constructi
 
 <br>
 
-## 🤖 Currently Building
+## 🔬 Current Focus
 
-> ### GDP-KG Agent
->
-> A knowledge-graph-grounded LLM agent based on the existing GDP-KG platform.
->
-> Planned workflow:
->
-> `User Query → Planning → Tool Calling → Neo4j Retrieval → Evidence → Verification → Answer`
->
-> Current status: **in development**. Repository, architecture, evaluation results, and demo will be published after the first working version is complete.
+### EnSF & Human-Object Interaction
+
+I am currently studying two complementary lines of work:
+
+- **EnSF:** score-based, training-free filtering methods for high-dimensional and nonlinear data assimilation.
+- **HOI:** controllable Human-Object Interaction generation and unified interaction modeling, including methods such as InteractDiffusion, OneHOI, and UniHOI.
 
 <br>
 
@@ -179,10 +159,11 @@ An end-to-end platform for pesticide data processing, knowledge graph constructi
 
 - [x] Build and deploy the GDP-KG knowledge graph platform
 - [x] Complete DualDA experiments and submit the paper
-- [ ] Implement Neo4j tools for GDP-KG Agent
-- [ ] Add planning, evidence preservation, and error handling
-- [ ] Build an Agent evaluation benchmark
-- [ ] Publish the repository, architecture diagram, and demo
+- [ ] Develop a deeper understanding of Ensemble Score Filters
+- [ ] Study InteractDiffusion, OneHOI, and UniHOI
+- [ ] Reproduce a representative Human-Object Interaction diffusion method
+- [ ] Evaluate score-based methods on data assimilation tasks
+- [ ] Release reproducible code and project notes when ready
 
 <br>
 
