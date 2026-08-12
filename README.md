@@ -2,85 +2,115 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,55:1E3A5F,100:0F766E&height=145&section=header&text=Qinglong%20Ge&fontSize=38&fontColor=FFFFFF&fontAlignY=32&desc=Generative%20Models%20%C2%B7%20Data%20Assimilation%20%C2%B7%20Human-Object%20Interaction&descSize=14&descAlignY=56" alt="Qinglong Ge header">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:081426,45:123A5A,100:0F766E&height=165&section=header&text=Qinglong%20Ge&fontSize=44&fontColor=FFFFFF&fontAlignY=32&desc=Generative%20Models%20for%20Scientific%20%26%20Interactive%20AI&descSize=16&descAlignY=56&animation=fadeIn" alt="Qinglong Ge header">
 
 <a href="https://github.com/toututuya">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=17&duration=3000&pause=900&color=2F81F7&center=true&vCenter=true&width=680&lines=M.S.+Student+%40+Dalian+University+of+Technology;Exploring+EnSF+for+data+assimilation;Studying+InteractDiffusion+%C2%B7+OneHOI+%C2%B7+UniHOI" alt="Typing introduction">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=17&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&repeat=true&width=720&height=45&lines=M.S.+Student+%40+Dalian+University+of+Technology;Data+Assimilation+%C2%B7+Diffusion+Models+%C2%B7+HOI;From+research+ideas+to+working+AI+systems" alt="Typing introduction">
 </a>
 
 <p>
-  <a href="mailto:qlge816@mail.dlut.edu.cn"><img src="https://img.shields.io/badge/Email-245B8A?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://gdpkg.samlab.cn/"><img src="https://img.shields.io/badge/GDP--KG-Live_Demo-16856B?style=flat-square&logo=neo4j&logoColor=white" alt="GDP-KG live demo"></a>
+  <a href="mailto:qlge816@mail.dlut.edu.cn"><img src="https://img.shields.io/badge/EMAIL-245B8A?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://github.com/toututuya"><img src="https://img.shields.io/badge/GITHUB-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://gdpkg.samlab.cn/"><img src="https://img.shields.io/badge/GDP--KG-LIVE_SYSTEM-16856B?style=for-the-badge&logo=neo4j&logoColor=white" alt="GDP-KG live system"></a>
 </p>
+
+<sub>Exploring generative intelligence across scientific discovery and interactive worlds.</sub>
 
 </div>
 
-## About
+<br>
 
-I am an M.S. student at **Dalian University of Technology**, interested in generative modeling and reliable AI systems. My current focus spans **Ensemble Score Filters (EnSF)** for data assimilation and diffusion-based **Human-Object Interaction (HOI)** generation and understanding.
-
-`Generative AI` · `Diffusion Models` · `Data Assimilation` · `EnSF` · `Human-Object Interaction`
-
-## Selected Work
+<h2>🚀 Featured Work</h2>
 
 <table>
 <tr>
 <td width="50%" valign="top">
-
-### 🌦️ DualDA
-
-**Dual-Space Generative Data Assimilation**
-
-Latent-space analysis coupled with state-space conditional diffusion for sparse atmospheric observations.
-
-`First Author` · `AAAI 2027 Under Review`  
-**nRMSE 0.1178** · **4.5% ↓ vs. FNP**
-
+  <h3 align="center">🌦️ DualDA</h3>
+  <p align="center"><b>Dual-Space Generative Data Assimilation</b></p>
+  <p>Couples latent-space analysis with state-space conditional diffusion for atmospheric data assimilation under sparse observations.</p>
+  <p align="center">
+    <img src="https://img.shields.io/badge/First_Author-2563EB?style=flat-square" alt="First author">
+    <img src="https://img.shields.io/badge/AAAI_2027-Under_Review-7C3AED?style=flat-square" alt="AAAI 2027 under review"><br>
+    <img src="https://img.shields.io/badge/nRMSE-0.1178-0F766E?style=flat-square" alt="nRMSE 0.1178">
+    <img src="https://img.shields.io/badge/vs._FNP-4.5%25_%E2%86%93-16A34A?style=flat-square" alt="4.5 percent lower than FNP">
+  </p>
 </td>
 <td width="50%" valign="top">
-
-### 🌱 GDP-KG
-
-**Global Pesticide Knowledge Graph**
-
-An end-to-end Neo4j knowledge graph system for pesticide data, retrieval, question answering, and visualization.
-
-`Core Developer` · `Neo4j` · `Deployed`  
-**[Open live system →](https://gdpkg.samlab.cn/)**
-
+  <h3 align="center">🌱 GDP-KG</h3>
+  <p align="center"><b>Global Pesticide Knowledge Graph</b></p>
+  <p>An end-to-end Neo4j platform for pesticide data engineering, knowledge retrieval, question answering, and visualization.</p>
+  <p align="center">
+    <img src="https://img.shields.io/badge/Core_Developer-0F766E?style=flat-square" alt="Core developer">
+    <img src="https://img.shields.io/badge/Neo4j-Knowledge_Graph-018BFF?style=flat-square&logo=neo4j&logoColor=white" alt="Neo4j knowledge graph"><br>
+    <a href="https://gdpkg.samlab.cn/"><img src="https://img.shields.io/badge/OPEN_LIVE_SYSTEM-%E2%86%92-16856B?style=flat-square" alt="Open live GDP-KG system"></a>
+  </p>
 </td>
 </tr>
 </table>
 
-## Current Focus
+<h2>🔭 Current Orbit</h2>
 
-| EnSF for Data Assimilation | Human-Object Interaction |
-|---|---|
-| Score-based filtering for high-dimensional nonlinear systems | Interaction-controllable generation and unified HOI modeling |
-| Ensemble Score Filter · sparse observations | InteractDiffusion · OneHOI · UniHOI |
+<table>
+<tr>
+<td width="50%" valign="top">
+  <h3>🌐 Scientific AI</h3>
+  <b>Ensemble Score Filter (EnSF)</b><br>
+  Exploring score-based filtering for high-dimensional nonlinear systems, sparse observations, and atmospheric data assimilation.
+</td>
+<td width="50%" valign="top">
+  <h3>🧩 Interactive AI</h3>
+  <b>Human-Object Interaction (HOI)</b><br>
+  Studying interaction-controllable generation and unified HOI modeling through InteractDiffusion, OneHOI, and UniHOI.
+</td>
+</tr>
+</table>
 
-## Research Outputs
+<h2>📚 Research Outputs</h2>
 
-- 🌿 **PDDD-PreTrain**, *Plant Phenomics*, 2023 — Fourth author
-- 💡 **CN115471668B**, granted invention patent — Second inventor
+<table>
+<tr>
+<td width="50%" valign="top">
+  <b>🌿 PDDD-PreTrain</b><br>
+  <i>Plant Phenomics</i>, 2023<br>
+  <sub>Fourth Author · Plant disease segmentation and pretrained-model evaluation</sub>
+</td>
+<td width="50%" valign="top">
+  <b>💡 CN115471668B</b><br>
+  Granted Chinese Invention Patent<br>
+  <sub>Second Inventor · Novel neuron connection algorithm</sub>
+</td>
+</tr>
+</table>
 
-## Tech
+<h2>🛠️ Toolkit</h2>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,cpp,pytorch,linux,git&theme=dark" alt="Python, C++, PyTorch, Linux and Git">
+<img src="https://skillicons.dev/icons?i=python,cpp,pytorch,linux,git,vscode&theme=dark&perline=6" alt="Python, C++, PyTorch, Linux, Git, and VS Code" height="48">
 
 <br><br>
 
-`Diffusion Models` · `VAE` · `Neo4j` · `Knowledge Graphs`
+<img src="https://img.shields.io/badge/Diffusion_Models-6D5DFB?style=flat-square" alt="Diffusion Models">
+<img src="https://img.shields.io/badge/Data_Assimilation-2563EB?style=flat-square" alt="Data Assimilation">
+<img src="https://img.shields.io/badge/Neo4j-018BFF?style=flat-square&logo=neo4j&logoColor=white" alt="Neo4j">
+<img src="https://img.shields.io/badge/Knowledge_Graphs-0F766E?style=flat-square" alt="Knowledge Graphs">
 
 </div>
 
----
+<br>
 
-<p align="center">
-  <strong>Researching generative models · Building reliable AI systems</strong><br><br>
-  <a href="mailto:qlge816@mail.dlut.edu.cn">Email</a> ·
-  <a href="https://github.com/toututuya">GitHub</a> ·
-  <a href="https://gdpkg.samlab.cn/">GDP-KG</a>
-</p>
+<div align="center">
+
+<b>Researching generative models. Building systems that work.</b>
+
+<br><br>
+
+<a href="mailto:qlge816@mail.dlut.edu.cn">Email</a>
+&nbsp;·&nbsp;
+<a href="https://github.com/toututuya">GitHub</a>
+&nbsp;·&nbsp;
+<a href="https://gdpkg.samlab.cn/">GDP-KG</a>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:081426,45:123A5A,100:0F766E&height=85&section=footer" alt="Footer">
+
+</div>
