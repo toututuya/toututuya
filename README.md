@@ -48,40 +48,6 @@
 </tr>
 </table>
 
-<h2>🔭 Current Orbit</h2>
-
-<table>
-<tr>
-<td width="50%" align="center" valign="middle">
-  <h3>🌐 Scientific AI</h3>
-  <img src="https://img.shields.io/badge/EnSF-Score--Based_Filtering-2563EB?style=flat-square" alt="EnSF score-based filtering"><br><br>
-  <sub>High-dimensional nonlinear data assimilation<br>under sparse observations</sub>
-</td>
-<td width="50%" align="center" valign="middle">
-  <h3>🧩 Interactive AI</h3>
-  <img src="https://img.shields.io/badge/HOI-Generative_Modeling-7C3AED?style=flat-square" alt="HOI generative modeling"><br><br>
-  <sub>Interaction-controllable and unified modeling<br>InteractDiffusion · OneHOI · UniHOI</sub>
-</td>
-</tr>
-</table>
-
-<h2>📚 Research Outputs</h2>
-
-<table>
-<tr>
-<td width="50%" align="center" valign="middle">
-  <h3>🌿 PDDD-PreTrain</h3>
-  <img src="https://img.shields.io/badge/Plant_Phenomics-2023-16A34A?style=flat-square" alt="Plant Phenomics 2023"><br><br>
-  <sub>Fourth Author · Segmentation and model evaluation</sub>
-</td>
-<td width="50%" align="center" valign="middle">
-  <h3>💡 CN115471668B</h3>
-  <img src="https://img.shields.io/badge/Invention_Patent-GRANTED-D97706?style=flat-square" alt="Granted invention patent"><br><br>
-  <sub>Second Inventor · Neuron connection algorithm</sub>
-</td>
-</tr>
-</table>
-
 <h2>🛠️ Toolkit</h2>
 
 <div align="center">
