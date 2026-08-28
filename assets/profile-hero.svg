@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="278" viewBox="0 0 900 278" role="img" aria-labelledby="title desc">
   <title id="title">Qinglong Ge — AI systems portfolio</title>
-  <desc id="desc">A fresh editorial banner with airy human-object interaction and knowledge graph illustrations.</desc>
+  <desc id="desc">A fresh editorial banner with a quiet abstract flow field.</desc>
   <defs>
     <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#FCFEFF"/><stop offset=".5" stop-color="#F7FBFF"/><stop offset="1" stop-color="#F1FBF6"/>
@@ -27,18 +27,11 @@
     <text x="58" y="238" fill="#7B8F9E" font-size="12.5">M.S. @ Dalian University of Technology</text>
   </g>
 
-  <g fill="none" stroke-linecap="round">
-    <rect x="572" y="61" width="74" height="135" rx="12" fill="#FFFFFF" fill-opacity=".45" stroke="#FF9B9F" stroke-width="2"/>
-    <rect x="612" y="128" width="135" height="83" rx="12" fill="#FFFFFF" fill-opacity=".42" stroke="#F6BD72" stroke-width="2"/>
-    <rect x="688" y="70" width="55" height="69" rx="12" fill="#FFFFFF" fill-opacity=".45" stroke="#75CFE0" stroke-width="2"/>
-    <path d="M627 120C650 105 669 104 696 110" stroke="#75CFE0" stroke-width="2"/>
-    <path d="M629 146C653 163 675 168 704 173" stroke="#F6BD72" stroke-width="2"/>
-    <circle cx="627" cy="120" r="4" fill="#FF9B9F" stroke="none"/><circle cx="696" cy="110" r="4" fill="#75CFE0" stroke="none"/><circle cx="704" cy="173" r="4" fill="#F6BD72" stroke="none"/>
-  </g>
-
-  <g opacity=".85" stroke-linecap="round">
-    <path d="M744 42L801 65L843 116L820 173L765 208L719 172L704 116L744 42Z" fill="none" stroke="#74C9A4" stroke-width="1.6"/>
-    <path d="M801 65L765 208M843 116L719 172M744 42L820 173" fill="none" stroke="#8FD9C4" stroke-width="1.2"/>
-    <g fill="#FFFFFF" stroke="#69C69E" stroke-width="1.7"><circle cx="744" cy="42" r="7"/><circle cx="801" cy="65" r="9"/><circle cx="843" cy="116" r="7"/><circle cx="820" cy="173" r="9"/><circle cx="765" cy="208" r="8"/><circle cx="719" cy="172" r="7"/><circle cx="704" cy="116" r="9"/></g>
+  <g fill="none" stroke-linecap="round" opacity=".54">
+    <path d="M540 44C612 17 687 25 744 58C800 90 846 94 890 65" stroke="#8CBFE3" stroke-width="1.4"/>
+    <path d="M526 79C602 47 674 56 733 94C792 131 841 132 893 98" stroke="#93D7CE" stroke-width="1.3"/>
+    <path d="M539 120C611 90 686 99 748 138C809 177 850 175 896 145" stroke="#A6CBE3" stroke-width="1.2"/>
+    <path d="M524 164C599 134 678 143 740 181C803 220 850 218 896 188" stroke="#8FD4B7" stroke-width="1.3"/>
+    <path d="M548 209C621 182 694 188 754 224C813 258 852 253 892 229" stroke="#A6D7E4" stroke-width="1.2"/>
   </g>
 </svg>
