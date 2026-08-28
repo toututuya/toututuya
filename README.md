@@ -16,47 +16,17 @@ stateful agents, knowledge graphs, and human-object interaction generation.</p>
 
 ## Featured systems
 
-<table>
-<tr>
-<td width="50%" valign="top">
-  <h3 align="center"><a href="https://github.com/toututuya/InteractCanvas">InteractCanvas</a></h3>
-  <p align="center"><b>Layout-guided Human-Object Interaction generation</b></p>
-  <p>An interactive editor that turns prompts, editable subject/object boxes, and action relations into structured conditions for local InteractDiffusion inference.</p>
-  <ul>
-    <li>Visual box editing and one-to-many HOI relation modeling</li>
-    <li>Vue 3 + Flask asynchronous generation pipeline</li>
-    <li>Diffusers / PEFT LoRA interface with explicit validation</li>
-    <li>CPU-verified 512×512 end-to-end inference</li>
-  </ul>
-  <p align="center">
-    <img src="https://img.shields.io/badge/Vue_3-42B883?style=flat-square&amp;logo=vuedotjs&amp;logoColor=white" alt="Vue 3">
-    <img src="https://img.shields.io/badge/Flask-111827?style=flat-square&amp;logo=flask&amp;logoColor=white" alt="Flask">
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch">
-  </p>
-  <p align="center"><a href="https://github.com/toututuya/InteractCanvas"><b>Repository and runnable demo →</b></a></p>
-</td>
-<td width="50%" valign="top">
-  <h3 align="center"><a href="https://github.com/toututuya/Agrireg-AI">AgriReg AI</a></h3>
-  <p align="center"><b>Evidence-grounded Knowledge Graph, GraphRAG & Stateful Agent</b></p>
-  <p>A Neo4j-based pesticide intelligence platform with traceable GraphRAG and a LangGraph workflow for comparison, relationship analysis, external verification, conflict checks, human approval, and resumable reports.</p>
-  <ul>
-    <li>Interactive graph exploration, shortest paths, and product comparison</li>
-    <li>FastAPI + LangGraph Thread / Run / SSE workflow with SQLite checkpoints</li>
-    <li>Five controlled tools; the agent cannot execute arbitrary Cypher</li>
-    <li>Human-in-the-loop approval and recovery for risk-screening reports</li>
-    <li>500 structural + 50 graph-consistency regression cases</li>
-    <li>30-case candidate study: GraphRAG 30/30 vs direct LLM 26/30</li>
-  </ul>
-  <p align="center">
-    <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&amp;logo=neo4j&amp;logoColor=white" alt="Neo4j">
-    <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&amp;logo=springboot&amp;logoColor=white" alt="Spring Boot">
-    <img src="https://img.shields.io/badge/GraphRAG-5B5BD6?style=flat-square" alt="GraphRAG">
-    <img src="https://img.shields.io/badge/LangGraph-1.x-1C3C3C?style=flat-square" alt="LangGraph 1.x">
-  </p>
-  <p align="center"><a href="https://github.com/toututuya/Agrireg-AI"><b>Repository, evaluation, and architecture →</b></a></p>
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/toututuya/InteractCanvas">
+    <img src="assets/interactcanvas-card.svg" alt="InteractCanvas — layout-guided human-object interaction generation" width="760">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/toututuya/Agrireg-AI">
+    <img src="assets/agrireg-card.svg" alt="AgriReg AI — knowledge graph, GraphRAG, and stateful agent" width="760">
+  </a>
+</p>
 
 > The AgriReg AI external comparison is a 30-case candidate benchmark, not yet an expert-validated production claim. Reproduction requirements and capability boundaries are documented in the repository.
 
