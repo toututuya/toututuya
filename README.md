@@ -69,7 +69,7 @@ First-author research coupling latent-space analysis with state-space conditiona
 ![First author](https://img.shields.io/badge/Role-First_Author-2563EB?style=flat-square)
 ![Status](https://img.shields.io/badge/AAAI_2027-Under_Review-7C3AED?style=flat-square)
 ![nRMSE](https://img.shields.io/badge/nRMSE-0.1178-0F766E?style=flat-square)
-![FNP comparison](https://img.shields.io/badge/vs._FNP-24.5%25_lower-16A34A?style=flat-square)
+![FNP comparison](https://img.shields.io/badge/vs._FNP-4.5%25_lower-16A34A?style=flat-square)
 
 ## Engineering focus
 
