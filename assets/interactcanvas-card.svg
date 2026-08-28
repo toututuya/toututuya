@@ -1,61 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="352" viewBox="0 0 760 352" role="img" aria-labelledby="title desc">
   <title id="title">InteractCanvas project card</title>
-  <desc id="desc">A translucent project card over a human-object interaction layout editor background.</desc>
+  <desc id="desc">A light editorial card for a layout-guided human-object interaction generation system.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070B16"/>
-      <stop offset="0.58" stop-color="#11152A"/>
-      <stop offset="1" stop-color="#26182A"/>
-    </linearGradient>
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M30 0H0V30" fill="none" stroke="#A9B5D0" stroke-opacity=".08"/>
-    </pattern>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#0C1222" stop-opacity=".95"/>
-      <stop offset="1" stop-color="#11172A" stop-opacity=".86"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000" flood-opacity=".42"/>
-    </filter>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFDFC"/><stop offset=".55" stop-color="#FAFCFF"/><stop offset="1" stop-color="#F1FBFC"/></linearGradient>
+    <radialGradient id="coral"><stop stop-color="#FFD9D8" stop-opacity=".72"/><stop offset="1" stop-color="#FFD9D8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="cyan"><stop stop-color="#CFF3F6" stop-opacity=".8"/><stop offset="1" stop-color="#CFF3F6" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#AFC2D0" stroke-opacity=".15"/></pattern>
   </defs>
-  <rect width="760" height="520" rx="28" fill="url(#bg)"/>
-  <rect width="760" height="520" rx="28" fill="url(#grid)"/>
+  <rect width="760" height="352" rx="26" fill="url(#paper)"/><rect x=".75" y=".75" width="758.5" height="350.5" rx="25.25" fill="none" stroke="#E1EAF0" stroke-width="1.5"/>
+  <circle cx="100" cy="52" r="130" fill="url(#coral)"/><circle cx="665" cy="294" r="150" fill="url(#cyan)"/>
 
-  <g opacity=".72">
-    <rect x="473" y="83" width="108" height="237" rx="9" fill="#FF6B74" fill-opacity=".08" stroke="#FF6B74" stroke-width="3"/>
-    <rect x="508" y="245" width="196" height="141" rx="9" fill="#FFB04A" fill-opacity=".08" stroke="#FFB04A" stroke-width="3"/>
-    <rect x="570" y="121" width="69" height="92" rx="9" fill="#5EE7F2" fill-opacity=".08" stroke="#5EE7F2" stroke-width="3"/>
-    <path d="M533 216 C552 244 577 266 609 288" fill="none" stroke="#FFB04A" stroke-width="3"/>
-    <path d="M548 167 C566 157 580 156 594 163" fill="none" stroke="#5EE7F2" stroke-width="3"/>
-    <circle cx="533" cy="216" r="5" fill="#FF6B74"/>
-    <circle cx="609" cy="288" r="5" fill="#FFB04A"/>
-    <circle cx="594" cy="163" r="5" fill="#5EE7F2"/>
-    <rect x="585" y="263" width="64" height="24" rx="12" fill="#271B16" stroke="#FFB04A"/>
-    <text x="617" y="280" text-anchor="middle" fill="#FFD095" font-family="Segoe UI,Arial,sans-serif" font-size="12">riding</text>
-    <rect x="559" y="136" width="66" height="24" rx="12" fill="#102028" stroke="#5EE7F2"/>
-    <text x="592" y="153" text-anchor="middle" fill="#A8F6FB" font-family="Segoe UI,Arial,sans-serif" font-size="12">holding</text>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <rect x="42" y="35" width="42" height="42" rx="13" fill="#FFFFFF" stroke="#F0D6D9"/>
+    <rect x="52" y="45" width="10" height="22" rx="3" fill="none" stroke="#F08187" stroke-width="1.8"/><rect x="66" y="54" width="10" height="13" rx="3" fill="none" stroke="#EDA84A" stroke-width="1.8"/><path d="M61 51C66 50 68 53 70 56" fill="none" stroke="#56BCCB" stroke-width="1.7"/>
+    <text x="98" y="61" fill="#20384A" font-size="27" font-weight="750">InteractCanvas</text>
+    <text x="42" y="104" fill="#CE6F76" font-size="11.5" font-weight="700" letter-spacing="1.8">CONTROLLABLE HUMAN–OBJECT INTERACTION</text>
+    <text x="42" y="141" fill="#3F5667" font-size="15.5">Turn editable boxes and action relations into</text><text x="42" y="165" fill="#3F5667" font-size="15.5">structured InteractDiffusion conditions.</text>
+
+    <circle cx="48" cy="205" r="4" fill="#F08187"/><text x="62" y="211" fill="#496171" font-size="14">Drag and resize subject / object boxes</text>
+    <circle cx="48" cy="237" r="4" fill="#EFA94F"/><text x="62" y="243" fill="#496171" font-size="14">Model one-to-many actions independently</text>
+    <circle cx="48" cy="269" r="4" fill="#61C3CF"/><text x="62" y="275" fill="#496171" font-size="14">Run local 512 × 512 Diffusers inference</text>
+
+    <rect x="42" y="299" width="184" height="34" rx="17" fill="#FFF0F0" stroke="#F3C8CA"/>
+    <text x="134" y="321" text-anchor="middle" fill="#B95760" font-size="13" font-weight="700">Repository &amp; demo  →</text>
   </g>
 
-  <rect x="30" y="28" width="700" height="464" rx="24" fill="url(#panel)" stroke="#FFFFFF" stroke-opacity=".12" filter="url(#shadow)"/>
+  <g transform="translate(404 42)">
+    <rect width="310" height="267" rx="20" fill="#FFFFFF" fill-opacity=".74" stroke="#DCE8EE"/>
+    <rect x="14" y="14" width="282" height="239" rx="14" fill="#F8FBFD"/><rect x="14" y="14" width="282" height="239" rx="14" fill="url(#grid)"/>
+    <circle cx="29" cy="29" r="3.5" fill="#F18487"/><circle cx="40" cy="29" r="3.5" fill="#F2BE6B"/><circle cx="51" cy="29" r="3.5" fill="#79CFD8"/>
+    <text x="230" y="33" fill="#93A6B4" font-family="Segoe UI,Arial,sans-serif" font-size="8" letter-spacing="1">512 × 512</text>
 
-  <g transform="translate(62 58)">
-    <rect width="46" height="46" rx="13" fill="#1A2035" stroke="#FF7A82" stroke-opacity=".65"/>
-    <rect x="9" y="9" width="12" height="28" rx="3" fill="none" stroke="#FF7A82" stroke-width="2"/>
-    <rect x="25" y="20" width="13" height="17" rx="3" fill="none" stroke="#FFB04A" stroke-width="2"/>
-    <path d="M20 18C26 17 28 20 31 24" fill="none" stroke="#72EAF2" stroke-width="2"/>
+    <rect x="53" y="58" width="86" height="144" rx="7" fill="#FFF5F5" fill-opacity=".8" stroke="#F08187" stroke-width="2"/>
+    <rect x="103" y="141" width="148" height="76" rx="7" fill="#FFF9EF" fill-opacity=".8" stroke="#EDA84A" stroke-width="2"/>
+    <rect x="174" y="70" width="58" height="70" rx="7" fill="#F1FCFD" fill-opacity=".9" stroke="#56BCCB" stroke-width="2"/>
+    <path d="M119 115C143 103 159 102 183 106" fill="none" stroke="#56BCCB" stroke-width="2" stroke-dasharray="4 4"/><path d="M119 151C146 168 164 172 192 178" fill="none" stroke="#EDA84A" stroke-width="2" stroke-dasharray="4 4"/>
+    <rect x="146" y="92" width="54" height="21" rx="10.5" fill="#E8F9FB" stroke="#9DDEE5"/><text x="173" y="106" text-anchor="middle" fill="#3B929E" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="700">holding</text>
+    <rect x="151" y="160" width="49" height="21" rx="10.5" fill="#FFF2DE" stroke="#F3CB8E"/><text x="175.5" y="174" text-anchor="middle" fill="#B87922" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="700">riding</text>
+    <text x="63" y="75" fill="#B9565E" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="700">SUBJECT</text><text x="111" y="158" fill="#B27624" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="700">BICYCLE</text><text x="183" y="87" fill="#358E99" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="700">CUP</text>
   </g>
-  <text x="122" y="83" fill="#FFFFFF" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700">InteractCanvas</text>
-  <text x="62" y="132" fill="#FFB4B9" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing=".7">LAYOUT-GUIDED HUMAN–OBJECT INTERACTION GENERATION</text>
-  <text x="62" y="172" fill="#D7DEEF" font-family="Segoe UI,Arial,sans-serif" font-size="17">Editable boxes and action relations become structured conditions</text>
-  <text x="62" y="196" fill="#D7DEEF" font-family="Segoe UI,Arial,sans-serif" font-size="17">for local InteractDiffusion inference.</text>
-
-  <g fill="#EEF2FF" font-family="Segoe UI,Arial,sans-serif" font-size="16">
-    <circle cx="68" cy="244" r="4" fill="#FF7A82"/><text x="84" y="250">Drag, resize, and validate subject / object boxes</text>
-    <circle cx="68" cy="282" r="4" fill="#FFB04A"/><text x="84" y="288">One subject, multiple objects, independent actions</text>
-    <circle cx="68" cy="320" r="4" fill="#72EAF2"/><text x="84" y="326">Vue 3 + Flask asynchronous generation pipeline</text>
-    <circle cx="68" cy="358" r="4" fill="#A98BFF"/><text x="84" y="364">Diffusers / PEFT LoRA; CPU-verified at 512 × 512</text>
-  </g>
-
-  <rect x="62" y="413" width="257" height="45" rx="22.5" fill="#FF6873"/>
-  <text x="190.5" y="442" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">Repository &amp; runnable demo  →</text>
 </svg>

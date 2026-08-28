@@ -4,13 +4,13 @@
 
 <br>
 
-<a href="mailto:qlge816@mail.dlut.edu.cn"><img src="https://img.shields.io/badge/Email-qlge816%40mail.dlut.edu.cn-2563EB?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
-<a href="https://github.com/toututuya"><img src="https://img.shields.io/badge/GitHub-toututuya-111827?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub"></a>
-<img src="https://img.shields.io/badge/Focus-AI_%2F_LLM_Engineering-0F766E?style=for-the-badge" alt="AI and LLM Engineering">
+<a href="mailto:qlge816@mail.dlut.edu.cn"><img src="https://img.shields.io/badge/Email-qlge816%40mail.dlut.edu.cn-5B8DEF?style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
+<a href="https://github.com/toututuya"><img src="https://img.shields.io/badge/GitHub-toututuya-334155?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub"></a>
+<img src="https://img.shields.io/badge/Focus-AI_%2F_LLM_Engineering-63B995?style=flat-square" alt="AI and LLM Engineering">
 
 </div>
 
-## Selected systems
+## Selected work
 
 <p align="center">
   <a href="https://github.com/toututuya/InteractCanvas">
@@ -46,7 +46,7 @@
 
 ### Core toolkit
 
-<img src="https://skillicons.dev/icons?i=python,java,cpp,pytorch,spring,vue,linux,git&amp;theme=dark&amp;perline=8" alt="Python, Java, C++, PyTorch, Spring, Vue, Linux, and Git" height="48">
+<img src="https://skillicons.dev/icons?i=python,java,cpp,pytorch,spring,vue,linux,git&amp;theme=light&amp;perline=8" alt="Python, Java, C++, PyTorch, Spring, Vue, Linux, and Git" height="48">
 
 <br><br>
 
