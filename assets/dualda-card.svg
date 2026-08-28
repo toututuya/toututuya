@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="350" viewBox="0 0 760 350" role="img" aria-labelledby="title desc">
+  <title id="title">DualDA research card</title><desc id="desc">First-author atmospheric AI research combining a VAE and conditional diffusion.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08101F"/><stop offset=".58" stop-color="#102544"/><stop offset="1" stop-color="#183A57"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#71B8FF" stop-opacity=".32"/><stop offset="1" stop-color="#71B8FF" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#D7EBFF" stroke-opacity=".055"/></pattern>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#091322" stop-opacity=".94"/><stop offset="1" stop-color="#102A42" stop-opacity=".82"/></linearGradient>
+  </defs>
+  <rect width="760" height="350" rx="26" fill="url(#bg)"/><rect width="760" height="350" rx="26" fill="url(#grid)"/><circle cx="640" cy="105" r="178" fill="url(#glow)"/>
+  <g opacity=".35" fill="none" stroke-linecap="round"><path d="M448 48C501 24 580 30 621 66S707 97 735 72" stroke="#7DD5FF" stroke-width="1.5"/><path d="M431 86C487 61 555 68 598 104S687 139 737 111" stroke="#7DA8FF" stroke-width="1.3"/><path d="M459 128C516 104 571 117 610 151S690 180 734 159" stroke="#B0C9FF" stroke-width="1.2"/><path d="M469 184C527 154 594 170 630 204S697 235 742 210" stroke="#6CE5E8" stroke-width="1.3"/><path d="M447 239C503 215 568 230 607 267S690 297 735 274" stroke="#7DBDFF" stroke-width="1.2"/></g>
+  <rect x="28" y="26" width="704" height="298" rx="22" fill="url(#panel)" stroke="#CDE6FF" stroke-opacity=".14"/>
+  <g transform="translate(58 52)"><circle cx="19" cy="22" r="16" fill="#172E4A" stroke="#79BEFF"/><path d="M8 24C10 17 16 14 21 17C25 12 35 15 35 23C35 28 31 31 26 31H13C8 31 6 28 8 24Z" fill="none" stroke="#9ED7FF" stroke-width="1.8"/></g>
+  <text x="113" y="78" fill="#FFFFFF" font-family="Segoe UI,Arial,sans-serif" font-size="29" font-weight="730">DualDA</text><text x="58" y="113" fill="#9DCBFF" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.8">DUAL-SPACE GENERATIVE ATMOSPHERIC ANALYSIS</text><text x="58" y="151" fill="#DCEAFF" font-family="Segoe UI,Arial,sans-serif" font-size="16.5">First-author research for 69-variable global atmospheric fields under</text><text x="58" y="176" fill="#DCEAFF" font-family="Segoe UI,Arial,sans-serif" font-size="16.5">sparse observations, coupling latent analysis with conditional diffusion.</text>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <rect x="58" y="209" width="188" height="77" rx="15" fill="#0C1728" fill-opacity=".82" stroke="#7DA8FF" stroke-opacity=".35"/><text x="76" y="236" fill="#8FAEFF" font-size="11" font-weight="700" letter-spacing="1.1">BEST OVERALL NRMSE</text><text x="76" y="271" fill="#FFFFFF" font-size="27" font-weight="750">0.1178</text>
+    <rect x="258" y="209" width="188" height="77" rx="15" fill="#0C1B27" fill-opacity=".82" stroke="#69E2E8" stroke-opacity=".35"/><text x="276" y="236" fill="#8FEAF0" font-size="11" font-weight="700" letter-spacing="1.1">VERSUS FNP</text><text x="276" y="271" fill="#FFFFFF" font-size="27" font-weight="750">4.5% lower</text>
+    <rect x="458" y="209" width="244" height="77" rx="15" fill="#102239" fill-opacity=".82" stroke="#9DCBFF" stroke-opacity=".35"/><text x="476" y="236" fill="#A8D1FF" font-size="11" font-weight="700" letter-spacing="1.1">PAPER STATUS</text><text x="476" y="270" fill="#FFFFFF" font-size="22" font-weight="730">AAAI 2027 · Under Review</text>
+  </g>
+</svg>
