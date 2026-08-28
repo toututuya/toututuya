@@ -8,10 +8,6 @@
 <a href="https://github.com/toututuya"><img src="https://img.shields.io/badge/GitHub-toututuya-111827?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub"></a>
 <img src="https://img.shields.io/badge/Focus-AI_%2F_LLM_Engineering-0F766E?style=for-the-badge" alt="AI and LLM Engineering">
 
-<br><br>
-
-<sub>Building controllable generative models, evidence-grounded graph systems, and stateful AI agents.</sub>
-
 </div>
 
 ## Selected systems
@@ -38,13 +34,13 @@
 
 ## Engineering focus
 
-| | Area | What I build |
-| :--: | --- | --- |
-| ◈ | **Generative modeling** | Diffusion models, conditional generation, spatial control, LoRA adapters |
-| ⬡ | **Graph intelligence** | Neo4j, Cypher, GraphRAG, grounded answers, retrieval evaluation |
-| ⌁ | **Agent systems** | LangGraph, controlled tools, checkpoints, human approval, SSE |
-| ◫ | **Backend systems** | FastAPI, Spring Boot, Flask, REST APIs, asynchronous jobs |
-| ∿ | **Experimentation** | PyTorch, ablations, reproducible evaluation, P50/P95 analysis |
+| Area | What I build |
+| --- | --- |
+| **Generative modeling** | Diffusion models, conditional generation, spatial control, LoRA adapters |
+| **Graph intelligence** | Neo4j, Cypher, GraphRAG, grounded answers, retrieval evaluation |
+| **Agent systems** | LangGraph, controlled tools, checkpoints, human approval, SSE |
+| **Backend systems** | FastAPI, Spring Boot, Flask, REST APIs, asynchronous jobs |
+| **Experimentation** | PyTorch, ablations, reproducible evaluation, P50/P95 analysis |
 
 <div align="center">
 
