@@ -1,11 +1,11 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0B1220,50:173B57,100:2563EB&amp;height=170&amp;section=header&amp;text=Qinglong%20Ge&amp;fontSize=44&amp;fontColor=FFFFFF&amp;fontAlignY=32&amp;desc=Scientific%20AI%20%C2%B7%20GraphRAG%20%C2%B7%20Controllable%20Generation&amp;descSize=16&amp;descAlignY=56&amp;animation=fadeIn" alt="Qinglong Ge profile header">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0B1220,50:173B57,100:2563EB&amp;height=170&amp;section=header&amp;text=Qinglong%20Ge&amp;fontSize=44&amp;fontColor=FFFFFF&amp;fontAlignY=32&amp;desc=Scientific%20AI%20%C2%B7%20Stateful%20Agents%20%C2%B7%20Controllable%20Generation&amp;descSize=16&amp;descAlignY=56&amp;animation=fadeIn" alt="Qinglong Ge profile header">
 
 <h3>Turning research ideas into reproducible AI systems</h3>
 
 <p>M.S. student at Dalian University of Technology, working on diffusion models,<br>
-data assimilation, knowledge graphs, and human-object interaction generation.</p>
+stateful agents, knowledge graphs, and human-object interaction generation.</p>
 
 <p>
   <a href="mailto:qlge816@mail.dlut.edu.cn"><img src="https://img.shields.io/badge/Email-qlge816%40mail.dlut.edu.cn-2563EB?style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
@@ -37,11 +37,13 @@ data assimilation, knowledge graphs, and human-object interaction generation.</p
 </td>
 <td width="50%" valign="top">
   <h3 align="center"><a href="https://github.com/toututuya/Agrireg-AI">AgriReg AI</a></h3>
-  <p align="center"><b>Evidence-grounded Pesticide Knowledge Graph & GraphRAG</b></p>
-  <p>A Neo4j-based system that connects pesticide registrations, ingredients, crops, pests, chemical classes, and mechanisms, then answers questions with graph evidence and traceable citations.</p>
+  <p align="center"><b>Evidence-grounded Knowledge Graph, GraphRAG & Stateful Agent</b></p>
+  <p>A Neo4j-based pesticide intelligence platform with traceable GraphRAG and a LangGraph workflow for comparison, relationship analysis, external verification, conflict checks, human approval, and resumable reports.</p>
   <ul>
     <li>Interactive graph exploration, shortest paths, and product comparison</li>
-    <li>Persistent multi-turn conversations with evidence re-highlighting</li>
+    <li>FastAPI + LangGraph Thread / Run / SSE workflow with SQLite checkpoints</li>
+    <li>Five controlled tools; the agent cannot execute arbitrary Cypher</li>
+    <li>Human-in-the-loop approval and recovery for risk-screening reports</li>
     <li>500 structural + 50 graph-consistency regression cases</li>
     <li>30-case candidate study: GraphRAG 30/30 vs direct LLM 26/30</li>
   </ul>
@@ -49,6 +51,7 @@ data assimilation, knowledge graphs, and human-object interaction generation.</p
     <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&amp;logo=neo4j&amp;logoColor=white" alt="Neo4j">
     <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&amp;logo=springboot&amp;logoColor=white" alt="Spring Boot">
     <img src="https://img.shields.io/badge/GraphRAG-5B5BD6?style=flat-square" alt="GraphRAG">
+    <img src="https://img.shields.io/badge/LangGraph-1.x-1C3C3C?style=flat-square" alt="LangGraph 1.x">
   </p>
   <p align="center"><a href="https://github.com/toututuya/Agrireg-AI"><b>Repository, evaluation, and architecture →</b></a></p>
 </td>
@@ -66,13 +69,14 @@ First-author research coupling latent-space analysis with state-space conditiona
 ![First author](https://img.shields.io/badge/Role-First_Author-2563EB?style=flat-square)
 ![Status](https://img.shields.io/badge/AAAI_2027-Under_Review-7C3AED?style=flat-square)
 ![nRMSE](https://img.shields.io/badge/nRMSE-0.1178-0F766E?style=flat-square)
-![FNP comparison](https://img.shields.io/badge/vs._FNP-4.5%25_lower-16A34A?style=flat-square)
+![FNP comparison](https://img.shields.io/badge/vs._FNP-24.5%25_lower-16A34A?style=flat-square)
 
 ## Engineering focus
 
 - **Generative modeling:** diffusion models, conditional generation, layout control, LoRA adapters
 - **Graph intelligence:** Neo4j, Cypher, GraphRAG, evidence-grounded generation, retrieval evaluation
-- **Backend systems:** Spring Boot, Flask, REST APIs, asynchronous jobs, persistent conversations
+- **Agent systems:** LangGraph, controlled tool routing, checkpoints, human-in-the-loop, SSE, evidence conflict checks
+- **Backend systems:** FastAPI, Spring Boot, Flask, REST APIs, asynchronous jobs, persistent conversations
 - **Experimentation:** PyTorch, reproducible evaluation, ablation studies, P50/P95 latency analysis
 
 <div align="center">
